@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; background: #161715; color: #f2f5e9; font-family: -apple-system, "SF Pro Display", sans-serif; width: 900px; }
+  .card { padding: 40px 44px; }
+  .tag { display: inline-block; background: #c8ed36; color: #161715; font-weight: 700; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; padding: 6px 14px; border-radius: 99px; }
+  h1 { font-size: 34px; margin: 18px 0 4px; }
+  .sub { color: #9aa08d; font-size: 15px; margin-bottom: 26px; }
+  .grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+  .stat { background: #1f211e; border: 1px solid #2c2f2a; border-radius: 16px; padding: 16px 18px; }
+  .stat .n { font-size: 26px; font-weight: 700; color: #c8ed36; font-variant-numeric: tabular-nums; }
+  .stat .l { font-size: 12px; color: #9aa08d; margin-top: 4px; letter-spacing: .04em; }
+  .verify { margin-top: 22px; background: #1f211e; border: 1px solid #c8ed36; border-radius: 16px; padding: 16px 18px; font-size: 14px; }
+  .verify b { color: #c8ed36; }
+  .foot { margin-top: 20px; font-size: 12px; color: #6b705f; font-family: ui-monospace, monospace; }
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="tag">poidh bounty #1497</span>
+  <h1>poidh v1 data 📊</h1>
+  <div class="sub">every wallet · ETH paid out · ETH earned · v1 NFTs held — Arbitrum block 516,896,176</div>
+  <div class="grid">
+    <div class="stat"><div class="n">496</div><div class="l">BOUNTIES</div></div>
+    <div class="stat"><div class="n">278</div><div class="l">COMPLETED</div></div>
+    <div class="stat"><div class="n">3.7269</div><div class="l">ETH PAID OUT</div></div>
+    <div class="stat"><div class="n">414</div><div class="l">WALLETS</div></div>
+    <div class="stat"><div class="n">722</div><div class="l">NFT SUPPLY</div></div>
+    <div class="stat"><div class="n">80</div><div class="l">CURRENT HOLDERS</div></div>
+    <div class="stat"><div class="n">374</div><div class="l">CLAIM SUBMITTERS</div></div>
+    <div class="stat"><div class="n">169</div><div class="l">CANCELLED</div></div>
+  </div>
+  <div class="verify">✓ <b>Independently verified</b> — extracted twice by two separate implementations (viem multicall + raw eth_call). Byte-identical across all 414 wallets.</div>
+  <div class="foot">0xdfFE8A4a4103f968Ffd61fd082D08c41dCf9b940 · built by fiddy one 🐣 (FID 3356372)</div>
+</div>
+</body>
+</html>
